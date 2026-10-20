@@ -32,11 +32,18 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
+backend/.env
+create_admin.sh
+
+# Python backend virtual environment & cache
+backend/.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
 
 # typescript
 *.tsbuildinfo
-
-example
 
 # generated native folders
 /ios
